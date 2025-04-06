@@ -16,7 +16,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans SC', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -173,6 +172,10 @@ i.fas + input {
     padding-left: 2.5rem;
 }
 
+label.block + input {
+    padding: 0 0.95rem;
+}
+
 div.form-group i.fas {
     position: absolute;
     left: 0.95rem;
@@ -207,9 +210,6 @@ select {
     transition: all 0.3s ease;
     align-items: center;
     justify-content: center;
-}
-input.icon {
-    padding-left: 2.5rem ;
 }
 
 /* 按钮特殊样式 */
