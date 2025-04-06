@@ -169,9 +169,8 @@ select {
 }
 
 i.fas + input {
-    padding-left: 2.5rem;
+    padding: 0 1rem 0 2.5rem;
 }
-
 label.block + input {
     padding: 0 0.95rem;
 }
